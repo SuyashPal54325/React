@@ -12,15 +12,25 @@ function App() {
 
 
   const addValue=()=>{
+    if(counter<20){
     console.log("value added",Math.random());
     counter=counter+1;
     setCounter(counter);
+    }
+    else{
+      console.log("Counter Value Exceeds")
+    }
   }
 
   const removeValue=()=>{
+    if(counter>0){
     console.log("value removed",Math.random());
     counter=counter-1;
     setCounter(counter);
+    }
+    else{
+      console.log("Counter Value Minimum")
+    }
   }
 
   return (
