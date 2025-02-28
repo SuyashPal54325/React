@@ -1,9 +1,12 @@
-
+import Chai from "./Chai"
 
 function App() {
 
   return (
-    <h1>Recat aur chai with vite</h1>
+    <>
+    <h1>Chai aur react with vite </h1>
+    <Chai/>
+    </>
   )
 }
 
